@@ -8,7 +8,7 @@ jewel.game = (function() {
 			screen = $('#' + screenId)[0];
 
 		if(activeScreen) {
-			dom.removeClass(screen, 'active');
+			dom.removeClass(activeScreen, 'active');
 		}
 
 		jewel.screens[screenId].run();
